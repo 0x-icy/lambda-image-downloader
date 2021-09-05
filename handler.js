@@ -13,8 +13,8 @@ const BUCKET = process.env.BUCKET;
 const UPLOAD_PATH = 'collections/images/';
 // max allowed image size
 const MAX_FILE_SIZE = 1024 * 1024 * 12; // 12MB
-// allowed image file types 
-const ALLOWED_TYPES = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'tif'];
+// allowed image file types png|svg|jpg|jepg|gif|webp|jxl|avif
+const ALLOWED_TYPES = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'tif', 'svg', 'jepg', 'webp', 'avif', 'mp4', 'mov', 'webm', 'ogv'];
 
 const s3 = new AWS.S3();
 
