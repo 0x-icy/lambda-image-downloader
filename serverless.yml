@@ -6,7 +6,7 @@ frameworkVersion: ">=1.1.0 <2.0.0"
 
 custom:
   # creating variable so it's DRY
-  bucket: demo-lambda-images
+  bucket: icytoolscdn
 
 layers:
   # definition of basic layer
@@ -20,9 +20,9 @@ provider:
   name: aws
   runtime: nodejs12.x
   # with stage you can create multiple versions of same Lambda
-  stage: dev
+  stage: production
   # choose a region close to your customers region
-  region: eu-west-1
+  region: us-east-1
   iamRoleStatements:
     - Effect: Allow
       Action:
