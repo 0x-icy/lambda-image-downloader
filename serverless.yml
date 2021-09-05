@@ -2,7 +2,7 @@
 service: downloaders
 
 # supported Serverless version
-frameworkVersion: ">=1.1.0 <2.0.0"
+frameworkVersion: ">=1.1.0 <3.0.0"
 
 custom:
   # creating variable so it's DRY
