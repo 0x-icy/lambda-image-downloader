@@ -14,7 +14,7 @@ const UPLOAD_PATH = 'collections/images/';
 // max allowed image size
 const MAX_FILE_SIZE = 1024 * 1024 * 12; // 12MB
 // allowed image file types 
-const ALLOWED_TYPES = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'tif', 'svg'];
+const ALLOWED_TYPES = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'tif'];
 
 const s3 = new AWS.S3();
 
