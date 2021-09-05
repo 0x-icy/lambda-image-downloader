@@ -10,7 +10,7 @@ const { v4: uuid } = require('uuid');
 // name of your S3 bucket
 const BUCKET = process.env.BUCKET;
 // folder in bucket where files are saved
-const UPLOAD_PATH = 'original/';
+const UPLOAD_PATH = 'collections/images/';
 // max allowed image size
 const MAX_FILE_SIZE = 1024 * 1024 * 12; // 12MB
 // allowed image file types
